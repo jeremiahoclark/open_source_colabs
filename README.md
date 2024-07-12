@@ -34,18 +34,17 @@ If you encounter any issues or have suggestions for improvements, please open an
 
 ### OpenAI TTS and Groq Whisper Reading While Listening
 
-The OpenAI TTS and Groq Whisper Reading While Listening project is a Python script that demonstrates how to create a Reading While Listening app similar to Kindle and Audible combined. It uses OpenAI's Text-to-Speech (TTS) API to generate audio from text, and Groq's Whisper API for speech-to-text transcription with timestamps.
+The OpenAI TTS and Groq Whisper project is a Python script that demonstrates how to map OpenAI TTS output to word inputs using timestamps. It uses OpenAI's Text-to-Speech (TTS) API to generate audio from text, and Groq's Whisper API for speech-to-text transcription with timestamps.
 
 Key features of this script include:
 
 - Text-to-speech conversion using OpenAI's TTS API
 - Speech-to-text transcription with timestamps using Groq's Whisper API
 - Sentence-level tracking for synchronized reading and listening
-- Cursor position calculation for a reading interface
 
 To use the OpenAI TTS and Groq Whisper Reading While Listening script:
 
-1. Open the `openai_tts_groq_whisper_rwl.ipynb` notebook in Google Colab.
+1. Open the `openai_tts_groq_whisper.ipynb` notebook in Google Colab.
 2. Install the required dependencies (openai and groq-sdk).
 3. Set up your OpenAI and Groq API keys in the notebook.
 4. Run the cells to generate speech from text, transcribe it, and analyze the results.
